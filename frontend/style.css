@@ -7,16 +7,17 @@
 .header{
     width:100%;
     height:100vh;
-    background-image: url(images/background.jpg);
+    background-image: url(images/background.png);
     background-position: center;
     background-size: cover;
+    overflow-x: hidden;
 }
 nav{
     width: 100%;
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding:18px 8%;
+    padding:8px 1%;
 }
 nav .logo{
     display:flex;
@@ -39,4 +40,70 @@ nav ul li a{
     text-decoration: none;
     color:#fff;
     font-weight: 600;
+
+}
+.content{
+    margin-top: 9%;
+    margin-left: 9%;  
+    color: #fff;
+}
+.content h1{
+    font-size: 150px;
+    line-height: 100px;
+    font-weight: 600;
+}
+.content h2{
+    white-space: nowrap;
+    overflow: hidden;      
+    font-size: 35px;
+    color: rgba(255,255,255,.70);
+    margin-left: 1%;
+
+}
+.content p{
+    max-width: 500px;  
+    line-height: 28px;
+    opacity: 0;
+}
+.links{
+    margin-top: 30px;
+    opacity: 0;
+}
+.links a{
+    color: #fff;   
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 1%;
+}
+.btn{
+    border: 2px solid #fff;
+    padding: 10px 35px;
+    border-radius: 30px;   
+    margin-right: 15px;
+}
+p {
+    white-space: nowrap;
+    overflow: hidden;    
+    font-family: monospace;  
+    font-size: 27px;
+    color: rgba(255,255,255,.70);
+}
+.slide-left{
+    animation: slideleft 0.5s linear forwards
+}
+@keyframes slideleft{
+    0%{
+        transform: translate(10px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0px);
+        opacity: 1;
+    }
+}
+p.slide-left{
+    animation-delay: 0.5s;
+}
+.links.slide-left{
+    animation-delay: 0.5s;
 }
