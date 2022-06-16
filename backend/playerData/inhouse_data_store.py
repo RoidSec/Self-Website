@@ -4,7 +4,6 @@ import opendota
 
 # Variables #
 client=opendota.OpenDota()
-api_key="4eced22c-924d-4aa3-8a36-d4205ec34cfe"
 openURL="https://api.opendota.com/api/"
 playersURL = "players/"
 timID='99084628'
