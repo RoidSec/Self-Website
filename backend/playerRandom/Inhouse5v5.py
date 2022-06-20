@@ -1,4 +1,5 @@
 import random
+import pandas as pd
 
 pN = ('Projects/Project_Dota/backend/PlayerRandom/playerNames.txt')
 
