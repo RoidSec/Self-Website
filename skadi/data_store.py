@@ -4,8 +4,8 @@ import opendota
 
 # Variables #
 client=opendota.OpenDota()
-openURL="https://api.opendota.com/api/"
-playersURL = "players/"
+openURL='https://api.opendota.com/api/'
+playersURL = 'players/'
 timID='99084628'
 shaunID='145692671'
 ivanID='51625083'
