@@ -34,7 +34,7 @@ playerColin=requests.get(openURL+playersURL+colinID)
 colinData=playerColin.json()
 playerConnor=requests.get(openURL+playersURL+connorID)
 connorData=playerConnor.json()
-
+#updates
 print('Tim MMR -',timData['mmr_estimate'],'Actual:',timData['solo_competitive_rank'])
 print()
 print('Shaun MMR -',shaunData['mmr_estimate'])
