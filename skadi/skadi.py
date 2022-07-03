@@ -17,5 +17,6 @@ data = json.loads(r.text)
 df = pd.DataFrame(data)
 df.head(10)
 
+# Updates
 # Outputs #
 print(df)
