@@ -48,16 +48,16 @@ nav ul li a{
     color: #fff;
 }
 .content h1{
-    font-size: 150px;
+    font-size: 85px;
     line-height: 100px;
     font-weight: 600;
 }
 .content h2{
     white-space: nowrap;
     overflow: hidden;      
-    font-size: 35px;
+    font-size: 40px;
     color: rgba(255,255,255,.70);
-    margin-left: 1%;
+    margin-left: 0.5%;
 
 }
 .content p{
@@ -80,7 +80,7 @@ nav ul li a{
 }
 @keyframes slideleft{
     0%{
-        transform: translate(10px);
+        transform: translate(50px);
         opacity: 0;
     }
     100%{
