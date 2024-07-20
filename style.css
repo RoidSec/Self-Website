@@ -55,9 +55,14 @@ nav ul li a{
 .content h2{
     white-space: nowrap;
     overflow: hidden;      
-    font-size: 40px;
+    font-size: 100px;
     color: rgba(255,255,255,.70);
-    margin-left: 0.5%;
+}
+.content h3{
+    align-items:center;
+    font-size: 25px;
+    line-height: 100px;
+    font-weight: 600;
 
 }
 .content p{
@@ -76,7 +81,7 @@ nav ul li a{
     margin-left: 1%;
 }
 .slide-left{
-    animation: slideleft 0.5s linear forwards
+    animation: slideleft 1s linear forwards
 }
 @keyframes slideleft{
     0%{
