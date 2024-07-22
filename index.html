@@ -8,9 +8,10 @@
 </head>
 
 <body>
+    <div id="preloader"></div>
     <div class="header">
         <nav>
-            <div class="logo">
+            <div class="leftheader">
                 <img src="images/logo.png">
                 <span>Roidbear</span>
             </div>
@@ -32,12 +33,15 @@
         <h3>
             Contact me at: Colin@Roidbear.com
         </h3>
-
             </div>
         </div>
         </div>
-    </div>
-    <script  src="./script.js">
+    <script>
+        var loader = document.getElementById("preloader");
+        window.addEventListener("load", function(){
+            loader.style.display = "none"
+        })
     </script>
+    <script  src="./script.js"></script>
 </body>
 </html>
