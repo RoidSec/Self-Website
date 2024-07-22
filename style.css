@@ -52,7 +52,7 @@ nav ul li a{
 }
 .content{
     margin-top: 8%;
-    margin-left: 5%;  
+    margin-left: 4%;  
     color: #fff;
 }
 .content h1{
@@ -67,8 +67,8 @@ nav ul li a{
     color: rgba(255,255,255,.70);
 }
 .content h3{
-    align-items:center;
-    font-size: 25px;
+    align-items:left;
+    font-size: 30px;
     line-height: 100px;
     font-weight: 600;
 }
@@ -105,22 +105,24 @@ p.slide-left{
 }
 .links.slide-left{
     animation-delay: 0.5s;
-
 }
 .contact-content{
     margin-top: 9%;
-    margin-left: 7%;  
+    margin-left: 4%;  
     color: #fff;
 }
 .contact-content h1{
-    font-size:70px;
+    font-size:80px;
     line-height: 100px;
     font-weight: 600;
+    text-decoration: none;
 }
 .contact-content h2{
-    font-size:30px;
+    padding: 10px;
     line-height: 100px;
     font-weight: 600;
+    line-height: 30px;    
+    text-decoration: none;
 }
 body, html {
   width: 100%;
@@ -131,55 +133,19 @@ body, html {
   overflow: hidden;
   font-family: 'Lato', sans-serif;
 }
-
 .container {
   width: 400px;
   height: 400px;
   position: absolute;
-  left: 50%;
+  left: 35%;
   top: 50%;
   transform: translate(-190%, -20%);
   display: flex;
   justify-content: left;
   align-items: left;
 }
-
 .center {
   width: 180px;
   height: 60px;
   position: absolute;
-}
-
-.btn {
-  width: 180px;
-  height: 60px;
-  cursor: pointer;
-  background: transparent;
-  border: 1px solid #91C9FF;
-  outline: none;
-  transition: 1s ease-in-out;
-}
-svg {
-  position: absolute;
-  left: 0;
-  top: 0;
-  fill: none;
-  stroke: #fff;
-  stroke-dasharray: 150 480;
-  stroke-dashoffset: 150;
-  transition: 1s ease-in-out;
-}
-
-.btn:hover {
-  transition: 1s ease-in-out;
-  background: #4F95DA;
-}
-
-.btn:hover svg {
-  stroke-dashoffset: -480;
-}
-.btn span {
-    color: white;
-    font-size: 18px;
-    font-weight: 100;
 }
